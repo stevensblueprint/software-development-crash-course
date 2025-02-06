@@ -22,7 +22,17 @@ The goal of this workshop is to help you improve how you develop Software both i
 
 ### Setting up Linting/Formatter
 
-LINTING-SAMPLE
+To run the formatter
+```bash
+black src/
+```
+
+To run the linter
+```bash
+pylint src/
+```
+
+**Note:** Make sure you have your virtual environment activated and you have installed all the dependencies from `requirements.txt`.
 
 ### Writing Tests with Pytest
 

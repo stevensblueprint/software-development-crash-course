@@ -17,8 +17,8 @@ jobs:
       - name: Lint
         run: |
           pip install pylint
-          pylint --fail-under=9.5 app.py
+          pylint --fail-under=9.5 src/
       - name: Format
         run: |
           pip install black
-          black app.py --check
+          black src/ --check
