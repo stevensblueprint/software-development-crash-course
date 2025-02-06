@@ -22,6 +22,10 @@ The goal of this workshop is to help you improve how you develop Software both i
 
 ### Setting up Linting/Formatter
 
+LINTING-SAMPLE
+
 ### Writing Tests with Pytest
+
+PYTEST-SAMPLE
 
 ### Automating the Linting Checks and Tests with GitHub Actions
