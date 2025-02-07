@@ -36,7 +36,12 @@ pylint src/
 
 ### Writing Tests with Pytest
 
-PYTEST-SAMPLE
+To run the unit tests
+```bash
+python3 -m unittest test/test.py
+```
+
+You will get a summary of all the passed unit test cases. 
 
 ### Automating the Linting Checks and Tests with GitHub Actions
 We want to make sure that on every pull request and push to main, we mantain the same coding standards.
