@@ -10,7 +10,7 @@ The goal of this workshop is to help you improve how you develop Software both i
 ## Getting Started
 
 1. Fork this repository
-2. Clone the forked respotiory to your machine
+2. Clone the forked repository to your machine
 3. Create a virtual environment
 4. Install the dependencies
 5. Run the project
@@ -39,3 +39,6 @@ pylint src/
 PYTEST-SAMPLE
 
 ### Automating the Linting Checks and Tests with GitHub Actions
+We want to make sure that on every pull request and push to main, we mantain the same coding standards.
+To achieve this, GitHub has Github Actions. GitHub Actions is a CI/CD service that allows us to automate 
+tasks within your software development lifecycle. It enables us to build, test, and deploy your code directly from GitHub.
