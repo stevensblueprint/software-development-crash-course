@@ -35,6 +35,16 @@ If you would like a challenge, uncheck the option to "Copy the main branch only"
 
 You are now ready to implement the GitHub actions for linting/formatting and testing.
 
+The task in "hard-mode" is to implement the following files:
+- `test/test.py`
+- `.github/workflows/lint.yml`
+- `.github/workflows/test.yml`
+
+If completed successfully, you should be able to create a pull request and 
+see the GitHub actions run on your pull request. If you get stuck we 
+created the solutions in `solutions` directory.
+
+
 ### Setting up Linting/Formatter
 
 To run the formatter

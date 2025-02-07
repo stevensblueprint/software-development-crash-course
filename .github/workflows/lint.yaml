@@ -1,1 +1,24 @@
-IMPLEMENT THIS FILE
+# IMPLEMENT THIS FILE
+
+# Create a GitHub Action that runs the Python linter of your choice
+# on both pull requests and pushes to the main branch.
+# Hint - refer to the README.md
+
+name: "Lint and Formatting"
+on: # TODO:
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: "pip"
+      - name: Install dependencies
+        # TODO: 
+      - name: Lint
+        # TODO:
+      - name: Format
+        # TODO:
