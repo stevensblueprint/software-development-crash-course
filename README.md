@@ -10,15 +10,30 @@ The goal of this workshop is to help you improve how you develop Software both i
 ## Getting Started
 
 1. Fork this repository
-2. Clone the forked repository to your machine
-3. Create a virtual environment
+
+![alt text](image.png)
+
+If you would like a challenge, uncheck the option to "Copy the main branch only". We have additional a barebones branch calleed "hard-mode" that you can use to start from scratch.
+
+2. Clone the forked repository to your machine:
+
+`git clone git@github.com:YOUR_USERNAME/software-development-crash-course.git`
+
+3. Create and activate a virtual environment:
+
+`python3 -m venv venv`
+
+`source venv/bin/activate` This may vary depending on your OS
+
 4. Install the dependencies
+
+`pip install -r requirements.txt`
+
 5. Run the project
 
-6. Pick a task from the project board
-7. Create a new branch following the naming convention `feature/your-feature-name`
-8. Implement the feature
-9. Push the branch to your forked repository
+`python src/app.py`
+
+You are now ready to implement the GitHub actions for linting/formatting and testing.
 
 ### Setting up Linting/Formatter
 
